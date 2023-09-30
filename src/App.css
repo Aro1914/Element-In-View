@@ -42,8 +42,19 @@ pre {
 	text-align: left;
 }
 
-.App-header {
+.App-wrapper {
 	width: calc(100% - 350px);
+	max-height: 100vh;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.App-header {
+	width: 100%;
 	background-color: #282c34;
 	height: 2000px;
 	display: flex;
